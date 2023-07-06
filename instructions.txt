@@ -1,0 +1,37 @@
+Welcome to Mastermind!
+
+Mastermind is a code-breaking game, in which your objective is to guess the correct combination chosen by other player or computer.
+
+Combination is a 4-elements long sequence of colours.
+There are 6 colours (with possible seventh being the empty space) and duplicates can be enabled or disabled.
+
+You can choose from the following game modes:
+-2 Players - one player picks the combination, the other one tries to guess it. Then they switch
+-Player vs Easy AI - first AI chooses combination for player to guess, then player chooses combination for the AI
+-Player vs Hard AI - similar to Player vs Easy AI, except this time the AI is way smarter ;)
+
+After choosing game mode, you will be able to choose whether you want to play with duplicates and / or empty spaces.
+
+To navigate selections, use up and down arrows. To confirm choice press Enter.
+
+Depending on the starting options, player will need to choose combination for the other player or AI will choose combination automatically.
+If you need to choose combination, make sure the other player isn't looking. Then, navigate through the possible options.
+Press Space to add (or remove) selection, press Enter to confirm the choice. Remember, the order of selections is saved!
+If you choose the combination, which doesn't have exactly 4 elements, you will be asked to choose again.
+
+Guessing phase looks similar. If AI is guessing the combination (happens in Player vs AI modes), you will be asked to press Enter for every guess AI makes.
+If you are trying to guess the combination, use similar process to one described above.
+
+After submitting your first guess, you will receive automatic feedback from the computer.
+Each "Red" in results means that one element of your guess is in a right colour and right position in your combination (but you don't know which one).
+Each "White" in results means that one element of your guess is in a right colour, but wrong position in your combination.
+For example, if results for your guess are "Red, White, White", it means that one element of your combination is in a right colour and correct position
+and two other elements are in right colours.
+Use this feedback to guess the correct combination!
+
+If you correctly identify all elements of the combination and put them in correct order, you win!
+If you don't manage to guess the combination in 25 attempts, you will lose the game.
+
+The onscreen instructions during the game will safely run you through it.
+
+Good luck!
